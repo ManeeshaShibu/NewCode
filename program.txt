@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int first_number, second_number, diff;
+    
+  cout << "Enter two integers: ";
+  cin >> first_number >> second_number;
+
+  // diff of two numbers in stored in variable diffOfTwoNumbers
+  diff = first_number - second_number;
+
+  // prints diff 
+  cout << first_number << " + " <<  second_number << " = " << diff;     
+
+  return 0;
+}
